@@ -1,0 +1,41 @@
+*{
+    margin: 0;    
+}
+.all-page{
+    min-width: 360px;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    font-size: 18px;
+}
+.contact-inform{
+    width: 35%;
+    background-color:rgb(203, 235, 247);    
+}
+.contacts{
+    text-align: center;    
+}
+.skills{
+    padding: 10px 20px 10px 20px;
+}
+.skills-list{
+    list-style: none;    
+}
+.skills-head{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.list{
+    padding: 0 0 15px 0;
+}
+.dark{
+    color: rgb(0, 0, 0); 
+    float: right;
+}
+.stars{
+   float: right; 
+   color: gray;    
+}
+
