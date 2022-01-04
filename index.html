@@ -4,46 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel = "stylesheet" href="style.css">
+    <link rel="icon" href="./icons8-женщина-пользователь-100.ico">
 </head>
 <body>
-    <div class="all-page">
+    <div class="container">
         <div class="contact-inform">       
-            <div class="fhoto">            
+            <div class="main-photo">
+                <div class="fhoto">
+                       
+                </div>
             </div>
             <div class="name">
-                <H1>KRAVTSOVA TATYANA</H1>
-                <p>Junior frontend developer</p>
-                <h3 class="caption">PROFILE</h3>
-                <p>When I was at school, computer science was one of my favorite subjects, but it so happened that my higher education is in economics. In 2020 I started to study software development courses and realized that I was good at it, and I was very passionate about it. In two years I took several courses and eventually chose Frontend, I want to develop in this direction.</p>
+                <H1 class="section">Tatyana Kravtsova</H1>
+                <p class="section">Junior frontend developer</p>
+                <h3 class="caption section" id="summary">Summary</h3>                
+                <p class="content">When I was at school, computer science was one of my favorite subjects, but it so happened that my higher education is in economics. In 2020 I started to study software development courses and realized that I was good at it, and I was very passionate about it. In two years I took several courses and eventually chose Frontend, my gaol is to learn a pure JavaScript at a good level. I would  like to work under the guidance of experienced developer to gain practilcal expirience</p>
             </div>
-            <div class="contacts">
-                <h3 class="caption">CONTACT ME</h3>
-                <h4>PHONE NUMBER</h4>
-                <p><a href="tel:+79095873310">8-909-587-3310</a></p>
-                <h4>EMAIL ADDRESS</h4>
+            <div class="contacts" id=contacts>
+                <h3 class="caption section" id="contact">Contact me                  
+                </h3>                
+                <h4 class="section">Telegram</h4>
+                <p>@Tanaya1808</p>
+                <h4 class="section">Email Address</h4>
                 <p><a href="mailto:tanayakravtsova@gmail.com">tanayakravtsova@gmail.com</a></p>
-                <h4>DISCORD</h4>
+                <h4 class="section">Discord</h4>
                 <p>Tatyana Kravtsova#6060</p>
             </div>    
             <div class="skills">
-                <h3 class="skills-head">PERSONAL SKILLS</h3>                
+                <h3 class="skills-head section">Personal Skills</h3>                
                     <ul class="skills-list">
                         <li class="list">Team work <span class="stars">*</span><span class="dark">****</span></li>
-                        <li class="list">Communication <span class="dark">*****</span></span></li>
-                        <li class="list">Creative <span class="stars">*</span></span><span class="dark">****</span></li>
-                        <li class="list">Organisation <span class="stars">**</span></span><span class="dark">***</span></li>
-                        <li class="list">Management <span class="stars">*</span></span><span class="dark">****</span></li>
+                        <li class="list">Communication <span class="dark">*****</span></li>
+                        <li class="list">Creative <span class="stars">*</span><span class="dark">****</span></li>
+                        <li class="list">Organisation <span class="stars">**</span><span class="dark">***</span></li>
+                        <li class="list">Management <span class="stars">*</span><span class="dark">****</span></li>
                     </ul>                
             </div>    
         </div>
         <div class="main-inform">
-            <header></header>
-            <main><h3>EDUCATION</h3></main>
+            <header class="header">
+                <nav class="nav">
+                    <input class="input" type="checkbox" name="menu" id="button-menu"/>
+                    <label class="label" for="button-menu">Menu</label>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    </ul>   
+                </nav>            
+            </header>
+            <main>
+                <div class="decor">
+                    <div class="head">
+                        <h3 class="head-decor" id="education">Education</h3>                        
+                    </div>
+                    <p class="content content-padding"> Unuversity: Far Eastern State Technical University, Management</p>
+                    <h4 class="content">Courses</h4>
+                    <ul class="main-list">
+                        <li>SPbSUT Software development (C#)</li>
+                        <li>Stepik (Java for beginners)</li>
+                        <li>Saint-Petersburg State University of Industrial Technologies and Design (Graphic design and layout of web pages)</li>
+                    </ul>
+                </div>
+                <div class="decor">
+                    <div class="head">
+                        <h3 class="head-decor" id="skills">Professional Skills</h3>                        
+                    </div>
+                    <ul class="main-list content-padding">
+                        <li>Web-development: HTML5, CSS3, JavaScript</li>
+                        <li>Version control: GIT, Github</li>
+                        <li>Graphics: Figma</li>
+                    </ul>
+                </div>
+                    <div class="decor">
+                        <div class="head">
+                            <h3 class="head-decor" id="code">Code</h3>                            
+                        </div>
+                            <p class="content-padding">
+                                <code>
+                                    let name = 'Tatyana';<br>
+                                    let message = 'Hello';<br>
+                                    allert (name+message);<br>                            
+                                </code>
+                            </p>
+                    </div>
+                    <div class="decor">
+                        <div class="head">
+                            <h3 class="head-decor" id="projects">Projects</h3>                             
+                        </div>
+                        <p class="content-padding">
+                            Only one project so far - this summary itself
+                        </p>
+                        <p class="content-padding">
+                           <a href="https://tatyanakravtsova.github.io/rsschool-cv/">https://tatyanakravtsova.github.io/rsschool-cv/</a> 
+                        </p>
+                    </div>
+                    <div class="decor">
+                        <div class="head">    
+                            <h3 class="head-decor" id="english">English</h3>                             
+                        </div> 
+                        <p class="content-padding">
+                            B1 - Pre-Intermediate
+                        </p>                        
+                    </div>
+            </main>            
         </div>
-    </div>
-    
-    
+        <footer class="footer">
+            <div class="signed">
+                <p class="content-padding-footer">&#9400; 2022 <a href="https://github.com/TatyanaKravtsova/" class="footer-link">TatyanaKravtsova</a></p>
+            </div>            
+            <div class="center-footer">                
+            </div>
+            <div class="main-logo">
+                <div class="logo"></div>
+            </div>
+        </footer>
+    </div>       
 </body>
 </html>
